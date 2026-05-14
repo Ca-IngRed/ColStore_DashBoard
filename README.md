@@ -65,5 +65,13 @@ Detalles del diseño responsive
 | **Responsive** 			 | El sidebar se colapsa en móvil y se despliega con botón hamburguesa, manteniendo usabilidad 	   |
 
 
+##Evidencias
+
+Las evidencias se
+
+| Escritorio | Tablet | Móvil |
+|:----------------------:|:-----------------:|:----------------:|
+| ![Escritorio](Evidencias/Desktop 1440.PNG) | ![Tablet](assets/screenshots/tablet.jpg) | ![Móvil](assets/screenshots/movil.jpg) |
+
 
 
