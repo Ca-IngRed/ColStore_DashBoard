@@ -44,13 +44,13 @@ Detalles del diseño responsive
 
 ## Tecnologias Usadas
 
-| Tecnología           |  Uso															    |
+| Tecnología           | Uso															    |
 |-------------------------------------------------------------------------------------------|
-| **HTML5**            |  Estructura semántica del documento 							    |
-| **CSS3**             |  Estilos, Grid (layout principal) y Flexbox (componentes internos) |
-| **JavaScript (ES6)** |  lógica del menú móvil											    |
-| **Chart.js**         |  Gráficos interactivos											    |
-| **Font Awesome 6**   |  Iconografía													    |
+| **HTML5**            | Estructura semántica del documento 							    |
+| **CSS3**             | Estilos, Grid (layout principal) y Flexbox (componentes internos) |
+| **JavaScript (ES6)** | lógica del menú móvil											    |
+| **Chart.js**         | Gráficos interactivos											    |
+| **Font Awesome 6**   | Iconografía													    |
 
 
 ## Accesibilidad
