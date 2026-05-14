@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ColStore Dashboard</title>
+
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+</head>
+
+<body>
+
+    <!-- SIDEBAR -->
+    <aside class="sidebar" role="navigation">
+
+        <div class="logo-container">
+            <div class="logo-icon">
+                <i class="fa-solid fa-store"></i>
+            </div>
+            <h2 class="logo">ColStore</h2>
+        </div>
+
+        
+        <nav>
+            <ul>
+                <li>
+                    <a href="#" class="menu-item">
+                    <i class="fa-solid fa-house"></i>
+                    Estadisticas
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#" class="menu-item">
+                    <i class="fa-solid fa-box"></i>
+                    Productos
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#" class="menu-item">
+                    <i class="fa-solid fa-chart-line"></i>
+                    Ventas
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#" class="menu-item">
+                    <i class="fa-solid fa-users"></i>
+                    Clientes
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#" class="menu-item">
+                    <i class="fa-solid fa-chart-pie"></i>
+                    Reportes
+                    </a>
+                </li>                
+
+            </ul>
+        </nav>
+
+
+        <div class="sidebar-footer">
+            <ul class="bottom-menu">
+                <li>
+                    <a href="#" class="menu-item">
+                        <i class="fa-solid fa-gear"></i>
+                        Configuración
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#" class="menu-item">
+                        <i class="fa-solid fa-circle-question"></i>
+                        Ayuda
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#" class="menu-item logout">
+                        <i class="fa-solid fa-right-from-bracket"></i>
+                        Cerrar Sesión
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+
+
+    </aside>
+
+
+
+    <!-- HEADER -->
+    <header class="header">
+
+        <div class="header-left">
+            <button class="menu-toggle" aria-label="Abrir menú">
+                ☰
+            </button>
+            <h1>Estadisticas</h1>
+        </div>
+            <div class="header-right">
+        <button class="mail-btn" aria-label="Correo">
+            <i class="fa-solid fa-envelope"></i>
+        </button>
+        <button class="notification-btn" aria-label="Notificaciones">
+            <i class="fa-solid fa-bell"></i>
+        </button>
+    </div>
+    </header>
+
+
+
+    <!-- MAIN -->
+    <main class="main-content" role="main">
+
+        <section class="cards">
+
+            <div class="card">
+                <div class="card-header">
+                    <i class="fa-solid fa-dollar-sign"></i>
+                    <h3>Ventas</h3>
+                </div>
+                <p>$12,500</p>
+            </div>
+
+            
+            <div class="card">
+                <div class="card-header">
+                    <i class="fa-solid fa-box"></i>
+                    <h3>Productos</h3>
+                </div>
+                <p>320</p>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <i class="fa-solid fa-users"></i>
+                    <h3>Clientes</h3>
+                </div>
+                <p>1,240</p>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    <h3>Pedidos</h3>
+                </div>
+                <p>89</p>
+            </div>
+
+        </section>
+
+    <!--Graficas-->
+
+        <section class="chart-section">
+
+    <!-- GRAFICA 1 -->
+
+    <div class="chart-container">
+
+        <h2>Ventas Mensuales</h2>
+
+        <canvas id="salesChart"></canvas>
+
+    </div>
+
+    <!-- GRAFICA 2 -->
+
+    <div class="chart-container">
+
+        <h2>Visitantes</h2>
+
+        <canvas id="visitorsChart"></canvas>
+
+    </div>
+
+    <!-- GRAFICA 3 -->
+
+    <div class="chart-container doughnut-chart">
+
+        <h2>Ganancias</h2>
+
+        <canvas id="profitsChart"></canvas>
+
+    </div>
+
+</section>
+
+    <!-- Tablas-->
+
+    <section class="tables-section">
+
+       <!-- TABLA IZQUIERDA -->
+        <div class="table-container">
+            <div class="table-header-wrapper">
+                <h2>Transacciones Recientes</h2>
+                <a href="#" class="view-all">Ver todas las transacciones</a>
+            </div>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>Cliente</th>
+                        <th>Total</th>
+                        <th>Estado</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            <div class="customer">
+                                <div class="profile-circle">
+                                    <img src="assets/images/avatar-carlos.jpg" alt="Carlos" class="profile-img">
+                                </div>
+                                <span>Carlos</span>
+                            </div>
+                        </td>
+                        <td>$120</td>
+                        <td>
+                            <span class="status completed">
+                                Completado
+                            </span>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <div class="customer">
+                                <div class="profile-circle">
+                                    <img src="assets/images/avatar-ana.jpg" alt="Ana" class="profile-img">
+                                </div>
+                                <span>Ana</span>
+                            </div>
+                        </td>
+                        <td>$90</td>
+                        <td>
+                            <span class="status pending">
+                                Pendiente
+                            </span>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <div class="customer">
+                                <div class="profile-circle">
+                                    <img src="assets/images/avatar-sofia.jpg" alt="Sofia" class="profile-img">
+                                </div>
+                                <span>Sofia</span>
+                            </div>
+                        </td>
+                        <td>$300</td>
+                        <td>
+                            <span class="status completed">
+                                Completado
+                            </span>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <!-- TABLA DERECHA -->
+        <div class="table-container">
+            <div class="table-header-wrapper">
+                <h2>Productos Más Vendidos</h2>
+                <a href="#" class="view-all">Ver todos los productos</a>
+            </div>
+
+            <table class="products-table">
+                <thead>
+                    <tr>
+                        <th>Producto</th>
+                        <th>Precio / Ventas</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            <div class="product">
+                                <div class="product-box">
+                                    <img src="assets/images/producto-nike.jpg" alt="Camiseta Nike" class="product-img">
+                                </div>
+                                <div class="product-info">
+                                    <span class="product-name">Camiseta Nike</span>
+                                </div>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="price-sales">
+                                <span class="price">$25</span>
+                                <span class="sales">120 ventas</span>
+                            </div>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <div class="product">
+                                <div class="product-box">
+                                    <img src="assets/images/producto-adidas.jpg" alt="Zapatos Adidas" class="product-img">
+                                </div>
+                                <div class="product-info">
+                                    <span class="product-name">Zapatos Adidas</span>
+                                </div>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="price-sales">
+                                <span class="price">$80</span>
+                                <span class="sales">90 ventas</span>
+                            </div>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <div class="product">
+                                <div class="product-box">
+                                    <img src="assets/images/producto-puma.jpg" alt="Gorra Puma" class="product-img">
+                                </div>
+                                <div class="product-info">
+                                    <span class="product-name">Gorra Puma</span>
+                                </div>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="price-sales">
+                                <span class="price">$15</span>
+                                <span class="sales">210 ventas</span>
+                            </div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+    </section>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <p>© 2026 ColStore Dashboard. Todos los derechos reservados.</p>
+    </footer>
+
+<!-- Scripts grafica -->  
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
