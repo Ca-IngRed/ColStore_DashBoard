@@ -9,7 +9,7 @@ El dashboard está diseñado para ser completamente responsivo, funcionando corr
 
 El dashboard se organiza en cuatro áreas principales:
 
-Barra lateral (Sidebar): Contiene el logo "COLSTORE" y el menú de navegación (Estadísticas, Productos, Ventas, Clientes, Reportes, Configuración, Ayuda y Cerrar Sesión). 
+Barra lateral (Sidebar): Contiene el logo "ColStore" y el menú de navegación (Estadísticas, Productos, Ventas, Clientes, Reportes, Configuración, Ayuda y Cerrar Sesión). 
 En móvil se oculta detrás de un botón hamburguesa ☰.
 
 Encabezado (Header): Muestra el título de la sección actual (Estadísticas) y dos botones de acción rápida: Correo y Notificaciones.
