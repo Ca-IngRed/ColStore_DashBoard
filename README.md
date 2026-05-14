@@ -1,11 +1,11 @@
-##Descripcion General
+## Descripcion General
 
 ColStore_Dashboard es una interfaz administrativa para la gestión de una tienda. Permite visualizar métricas clave como ventas totales, productos en inventario, clientes registrados y pedidos realizados. Incluye gráficos interactivos de ventas mensuales, visitantes diarios y distribución de ganancias, además de tablas con transacciones recientes y productos más vendidos.
 
 El dashboard está diseñado para ser completamente responsivo, funcionando correctamente en dispositivos de escritorio, tablet y móvil.
 
 
-##Disposicion del Dashboard
+## Disposicion del Dashboard
 
 El dashboard se organiza en cuatro áreas principales:
 
@@ -25,14 +25,14 @@ Encabezado (Header): Muestra el título de la sección actual (Estadísticas) y 
 Pie de página (Footer): Muestra el copyright y año actual.
 
 
-##Notas de diseño
+## Notas de diseño
 
 - **CSS Grid** Se uso en la estructura principal (sidebar, header, main, footer), con áreas nombradas para mayor claridad.
  
 - **Flexbox** para componentes internos (tarjetas, menús, filas de tablas), asegurando alineación y distribución responsiva.
 
 
-##Diseño Responsive
+## Diseño Responsive
 
 El diseño es completamente responsivo: se adapta automáticamente a escritorio, tablet y móvil gracias a CSS Grid y Flexbox. En pantallas pequeñas, el sidebar se colapsa y las tarjetas se apilan verticalmente.
 
@@ -42,7 +42,7 @@ Detalles del diseño responsive
 	**Escritorio (1440)**
 
 
-##Tecnologias Usadas
+## Tecnologias Usadas
 
 | Tecnología           |  Uso															    |
 |-------------------------------------------------------------------------------------------|
@@ -53,7 +53,7 @@ Detalles del diseño responsive
 | **Font Awesome 6**   |  Iconografía													    |
 
 
-##Accesibilidad
+## Accesibilidad
 
 | Aspecto 					 | Implementación 																				   |
 |----------------------------|-------------------------------------------------------------------------------------------------|
