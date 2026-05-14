@@ -71,7 +71,7 @@ Las evidencias se
 
 | Escritorio | Tablet | Móvil |
 |:----------------------:|:-----------------:|:----------------:|
-| ![Escritorio](Evidencias/Desktop 1440.PNG) | ![Tablet](assets/screenshots/tablet.jpg) | ![Móvil](assets/screenshots/movil.jpg) |
+| ![Escritorio](Desktop_1440px.PNG) | ![Tablet](assets/screenshots/tablet.jpg) | ![Móvil](assets/screenshots/movil.jpg) |
 
 
 
