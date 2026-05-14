@@ -1,10 +1,9 @@
 
-Store Dashboard es una interfaz administrativa para la gestión de una tienda. Permite visualizar métricas clave como ventas totales, productos en inventario, clientes registrados y pedidos realizados. Incluye gráficos interactivos de ventas mensuales, visitantes diarios y distribución de ganancias, además de tablas con transacciones recientes y productos más vendidos.
+COlStore_Dashboard es una interfaz administrativa para la gestión de una tienda. Permite visualizar métricas clave como ventas totales, productos en inventario, clientes registrados y pedidos realizados. Incluye gráficos interactivos de ventas mensuales, visitantes diarios y distribución de ganancias, además de tablas con transacciones recientes y productos más vendidos.
 
 El dashboard está diseñado para ser completamente responsivo, funcionando correctamente en dispositivos de escritorio, tablet y móvil.
 
-
-**ColStore**
+#Disposicion del Dashboard#
 
 El dashboard se organiza en cuatro áreas principales:
 
